@@ -16,12 +16,15 @@ This repo is created for learning purposes.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/Malinovv/webpack
    ```
+
    ```bash
    npm install
    ```
+
 ## Usage
+
 ### Running the Development Server
 
 To start the development server and run your project locally, use the following command:
@@ -29,13 +32,16 @@ To start the development server and run your project locally, use the following 
 ```bash
 npm start
 ```
+
 This will launch the development server, and you can view your project in a web browser by navigating to http://localhost:3000 (or the specified port in your configuration).
 
 Building for Production
 When you're ready to deploy your project, you can build it for production using the following command:
+
 ```bash
 npm run build
 ```
+
 This will generate optimized and minified files in the dist or build directory, ready for deployment to a web server.
 
 Customizing Configuration
@@ -43,6 +49,7 @@ If you need to customize the configuration or adjust settings, you can do so in 
 
 Using Custom Scripts
 Feel free to add your own custom npm scripts to the package.json file based on your project's needs. For example, you might want to create scripts for testing, linting, or other tasks relevant to your workflow.
+
 ```json
 "scripts": {
   "test": "jest",
@@ -59,10 +66,10 @@ The project uses Webpack for bundling and configuring assets. The main configura
 ```javascript
 // webpack.config.js
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    filename: 'bundle.js',
-    path: __dirname + '/dist',
+    filename: "bundle.js",
+    path: __dirname + "/dist",
   },
   // Add loaders, plugins, and other configurations as needed
 };
@@ -70,4 +77,3 @@ module.exports = {
 
 npm start: Start the development server.
 npm build: Build the project for production.
-
