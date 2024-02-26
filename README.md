@@ -21,7 +21,7 @@ This repo is created for learning purposes.
    ```bash
    npm install
    ```
-   ## Usage
+## Usage
 Brief explanation of how to use your project. Include any important information or steps.
 
 ## Configuration
