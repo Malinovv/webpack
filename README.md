@@ -22,21 +22,6 @@ This repo is created for learning purposes.
    npm install
    ```
 ## Usage
-
-### Running the Development Server
-
-To start the development server and run your project locally, use the following command:
-
-```bash
-npm start
-```
-
-Certainly! Here's an extended example for the "Usage" section:
-
-markdown
-Copy code
-## Usage
-
 ### Running the Development Server
 
 To start the development server and run your project locally, use the following command:
